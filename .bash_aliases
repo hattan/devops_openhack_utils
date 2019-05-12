@@ -1,0 +1,1 @@
+alias helm='/home/hattan/projects/openhack/helm/linux-amd64/helm'
