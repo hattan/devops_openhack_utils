@@ -7,15 +7,15 @@ rg=$(az aks list --query '[].resourceGroup' --out tsv)
 az aks get-credentials -n $name -g $rg
 
 #HELM SETUP
-wget https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-linux-amd64.tar.gz
+wget https://storage.googleapis.com/kubernetes-helm/helm-v2.14.3-linux-amd64.tar.gz
 
 if [ ! -d "./helm" ]; then
         echo 'creating helm directory'
         mkdir helm
 fi
 
-tar -xvf helm-v2.12.3-linux-amd64.tar.gz -C ./helm
-rm helm-v2.12.3-linux-amd64.tar.gz
+tar -xvf helm-v2.14.3-linux-amd64.tar.gz -C ./helm
+rm helm-v2.14.3-linux-amd64.tar.gz
 
 path=$(pwd)
 
