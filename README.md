@@ -1,7 +1,7 @@
 # devops_openhack_utils
 helper scripts for devops openhack
 
-To set up kubectl and downgrade helm to 2.12.3 
+To set up kubectl and downgrade helm to 2.14.3 
 
 ```curl -L https://raw.githubusercontent.com/hattan/devops_openhack_utils/master/setup.sh | bash```
 
