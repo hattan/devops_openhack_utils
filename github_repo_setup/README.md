@@ -1,6 +1,6 @@
 # Copy Repo Utility
 
-The [copy_repo.sh] script can be used to copy the DevOps OpenHack Teams repo to a new repository that you create.
+The [copy_repo.sh](./copy_repo.sh) script can be used to copy the DevOps OpenHack Teams repo to a new repository that you create.
 
 You might ask, why can't I just fork the repo? Well you can, the issue with forking arises when it comes time to create a pull request from your feature branch to your master branch. The default behavior is to open a pull request back to Azure-Samples/openhack-devops-team which many teams have done in past OpenHacks.
 
