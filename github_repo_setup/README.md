@@ -11,8 +11,8 @@ By copying the repo, you get a fresh repository that contains all branches, but 
 * Clone this repo and navitate to the github_repo_setup folder.
 * On GitHub, create a new repository and note the .git url. This is your target url.
 * Invoke the approriate script:
-  * BASH/ZSH : copy_repo.sh -t <new repo .git url>
-  * Powershell: copy_repo.ps1 -target <new repo .git url>
+  * BASH/ZSH   : ``` ./copy_repo.sh -t <new repo .git url> ```
+  * Powershell : ``` ./copy_repo.ps1 -target <new repo .git url> ```
 
 ## What the script does
 
