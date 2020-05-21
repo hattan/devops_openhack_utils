@@ -21,5 +21,5 @@ This script will perform the following actions:
 * Clone Azure-Samples/openhack-devops-team to a folder caled devops-oh (in the same path as the script itself)
 * Fetch and pull all branches in the repo.
 * Change the remote url to your new repo.
-* Push all branches to new repo.
+* Push all branches to target repo.
 
