@@ -18,7 +18,7 @@ By copying the repo, you get a fresh repository that contains all branches, but 
 
 This script will perform the following actions:
 
-* Clone Azure-Samples/openhack-devops-team to a folder caled devops-oh (in the same path as the script iteself)
+* Clone Azure-Samples/openhack-devops-team to a folder caled devops-oh (in the same path as the script itself)
 * Fetch and pull all branches in the repo.
 * Change the remote url to your new repo.
 * Push all branches to new repo.
